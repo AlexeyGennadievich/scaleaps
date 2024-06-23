@@ -1,0 +1,1268 @@
+2024-06-02 12:07:52,173 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 7300 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 12:07:52,250 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:07:58,464 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 12:07:58,635 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 145 ms. Found 2 JPA repository interfaces.
+2024-06-02 12:08:00,135 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 12:08:00,166 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:08:00,166 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 12:08:00,166 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 12:08:00,463 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 12:08:00,463 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7991 ms
+2024-06-02 12:08:01,057 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 12:08:01,510 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26d40c77
+2024-06-02 12:08:01,510 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 12:08:01,956 INFO l.database [main] Set default schema name to public
+2024-06-02 12:08:03,108 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 12:08:03,124 INFO l.executor [main] Changelog query completed.
+2024-06-02 12:08:03,404 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 12:08:03,656 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 12:08:03,661 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 12:08:04,631 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 12:08:08,514 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 12:08:08,690 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:08:09,704 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 12:08:11,378 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 12:08:11,535 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:08:11,582 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 12:08:11,597 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 20.633 seconds (process running for 25.094)
+2024-06-02 12:08:37,990 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 12:08:37,990 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 12:08:37,993 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-06-02 12:08:40,414 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] Init duration for springdoc-openapi is: 989 ms
+2024-06-02 12:10:19,282 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:10:19,297 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 12:10:19,313 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 12:31:57,516 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 2204 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 12:31:57,524 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:32:01,650 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 12:32:01,813 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 141 ms. Found 2 JPA repository interfaces.
+2024-06-02 12:32:03,954 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 12:32:04,025 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:32:04,035 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 12:32:04,035 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 12:32:04,612 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 12:32:04,612 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6809 ms
+2024-06-02 12:32:05,741 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 12:32:06,207 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@351e89fc
+2024-06-02 12:32:06,207 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 12:32:06,673 INFO l.database [main] Set default schema name to public
+2024-06-02 12:32:07,833 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 12:32:07,848 INFO l.executor [main] Changelog query completed.
+2024-06-02 12:32:08,131 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 12:32:08,340 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 12:32:08,340 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 12:32:09,171 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 12:32:15,522 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 12:32:15,669 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:32:16,709 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 12:32:18,671 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 12:32:19,318 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:32:20,550 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 12:32:20,581 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 24.258 seconds (process running for 27.169)
+2024-06-02 12:32:36,151 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 12:32:36,152 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 12:32:36,155 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 12:32:36,468 INFO r.e.c.s.GroupServiceImpl [http-nio-8080-exec-2] Create a new group 00-40
+2024-06-02 12:32:36,641 INFO r.e.c.s.GroupServiceImpl [http-nio-8080-exec-2] Group 00-40 saved in database
+2024-06-02 12:33:22,344 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at ru.evgen.cooking_chef_project.service.GroupServiceImpl.getOneGroup(GroupServiceImpl.java:24)
+	at ru.evgen.cooking_chef_project.controller.GroupController.getOneGroup(GroupController.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-02 12:33:38,563 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:33:38,563 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 12:33:38,588 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 12:49:17,958 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 7324 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 12:49:17,958 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:49:20,819 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 12:49:20,951 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 119 ms. Found 2 JPA repository interfaces.
+2024-06-02 12:49:22,302 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 12:49:22,322 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:49:22,322 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 12:49:22,322 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 12:49:22,576 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 12:49:22,576 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4445 ms
+2024-06-02 12:49:23,508 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 12:49:24,242 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@15586843
+2024-06-02 12:49:24,252 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 12:49:24,759 INFO l.database [main] Set default schema name to public
+2024-06-02 12:49:26,537 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 12:49:26,559 INFO l.executor [main] Changelog query completed.
+2024-06-02 12:49:26,894 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 12:49:27,046 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 12:49:27,046 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 12:49:27,838 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 12:49:30,575 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 12:49:30,677 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:49:31,598 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 12:49:34,043 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 12:49:34,215 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:49:34,258 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 12:49:34,305 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 17.45 seconds (process running for 19.931)
+2024-06-02 12:49:45,784 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 12:49:45,784 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 12:49:45,787 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 12:50:26,297 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:50:26,318 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 12:50:26,449 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 12:56:37,929 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 920 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 12:56:37,929 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 12:56:42,570 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 12:56:42,710 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
+2024-06-02 12:56:44,060 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 12:56:44,083 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:56:44,091 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 12:56:44,091 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 12:56:44,418 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 12:56:44,418 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 6243 ms
+2024-06-02 12:56:45,079 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 12:56:45,495 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14874a5d
+2024-06-02 12:56:45,495 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 12:56:45,901 INFO l.database [main] Set default schema name to public
+2024-06-02 12:56:47,036 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 12:56:47,048 INFO l.executor [main] Changelog query completed.
+2024-06-02 12:56:47,302 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 12:56:47,454 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 12:56:47,454 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 12:56:48,205 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 12:56:50,932 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 12:56:51,084 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 12:56:52,174 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 12:56:54,080 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 12:56:54,247 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 12:56:54,294 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 12:56:54,316 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 17.741 seconds (process running for 21.044)
+2024-06-02 12:57:08,939 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 12:57:08,940 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 12:57:08,943 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-06-02 12:57:32,746 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-5] Студент null удален из группы 4
+2024-06-02 12:57:53,407 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.persistence.EntityNotFoundException: Unable to find ru.evgen.cooking_chef_project.entity.Group with id 56] with root cause
+jakarta.persistence.EntityNotFoundException: Unable to find ru.evgen.cooking_chef_project.entity.Group with id 56
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$JpaEntityNotFoundDelegate.handleEntityNotFound(EntityManagerFactoryBuilderImpl.java:186)
+	at org.hibernate.proxy.AbstractLazyInitializer.checkTargetState(AbstractLazyInitializer.java:290)
+	at org.hibernate.proxy.AbstractLazyInitializer.initialize(AbstractLazyInitializer.java:176)
+	at org.hibernate.proxy.AbstractLazyInitializer.getImplementation(AbstractLazyInitializer.java:314)
+	at org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor.intercept(ByteBuddyInterceptor.java:44)
+	at org.hibernate.proxy.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:102)
+	at ru.evgen.cooking_chef_project.entity.Group$HibernateProxy$CR6z7kgM.getStudents(Unknown Source)
+	at ru.evgen.cooking_chef_project.service.StudentServiceImp.getOneStudentGroup(StudentServiceImp.java:41)
+	at ru.evgen.cooking_chef_project.controller.StudentController.getOneStudentGroup(StudentController.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-02 13:00:24,995 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:00:25,052 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:00:25,077 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:00:40,820 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 10156 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:00:40,820 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:00:43,692 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:00:43,834 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 122 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:00:45,041 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:00:45,061 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:00:45,061 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:00:45,061 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:00:45,325 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:00:45,333 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4345 ms
+2024-06-02 13:00:45,883 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:00:46,307 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@749baa0c
+2024-06-02 13:00:46,309 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:00:46,736 INFO l.database [main] Set default schema name to public
+2024-06-02 13:00:47,821 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:00:47,841 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:00:48,095 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:00:48,247 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:00:48,255 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:00:49,009 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:00:51,808 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:00:51,912 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:00:52,763 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 13:00:54,221 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 13:00:54,368 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:00:54,415 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 13:00:54,437 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 14.734 seconds (process running for 16.994)
+2024-06-02 13:01:07,818 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 13:01:07,819 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 13:01:07,822 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-06-02 13:11:17,060 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:11:17,064 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:11:17,089 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:11:36,804 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 3500 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:11:36,814 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:11:40,695 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:11:40,847 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:11:42,462 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:11:42,483 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:11:42,485 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:11:42,485 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:11:42,800 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:11:42,800 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5703 ms
+2024-06-02 13:11:43,492 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:11:44,050 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ab9e43e
+2024-06-02 13:11:44,060 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:11:44,527 INFO l.database [main] Set default schema name to public
+2024-06-02 13:11:46,324 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:11:46,344 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:11:46,670 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:11:46,853 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:11:46,863 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:11:47,602 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:11:50,179 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:11:50,311 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:11:51,510 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 13:11:53,609 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 13:11:53,772 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:11:53,810 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 13:11:53,857 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 18.386 seconds (process running for 20.78)
+2024-06-02 13:12:10,084 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 13:12:10,085 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2024-06-02 13:12:10,089 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 3 ms
+2024-06-02 13:13:54,540 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:13:54,555 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:13:54,571 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:14:02,135 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 4444 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:14:02,135 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:14:05,036 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:14:05,178 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 131 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:14:06,518 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:14:06,538 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:14:06,546 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:14:06,546 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:14:06,823 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:14:06,823 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4467 ms
+2024-06-02 13:14:07,371 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:14:07,818 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4239262e
+2024-06-02 13:14:07,828 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:14:08,316 INFO l.database [main] Set default schema name to public
+2024-06-02 13:14:09,483 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:14:09,493 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:14:09,746 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:14:09,888 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:14:09,888 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:14:10,660 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:14:13,128 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:14:13,229 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:14:14,047 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 13:14:15,519 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 13:14:15,682 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:14:15,720 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 13:14:15,767 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 14.802 seconds (process running for 17.174)
+2024-06-02 13:14:27,925 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 13:14:27,925 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 13:14:27,928 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 13:14:50,043 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:14:50,043 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:14:50,074 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:31:21,161 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 6688 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:31:21,167 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:31:25,690 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:31:25,885 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 165 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:31:28,025 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:31:28,055 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:31:28,061 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:31:28,061 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:31:28,505 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:31:28,506 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7180 ms
+2024-06-02 13:31:29,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:31:30,069 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ab9e43e
+2024-06-02 13:31:30,073 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:31:31,628 INFO l.database [main] Set default schema name to public
+2024-06-02 13:31:33,298 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:31:33,317 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:31:33,628 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:31:33,803 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:31:33,808 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:31:34,627 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:31:37,362 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:31:37,539 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:31:38,680 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 13:31:40,250 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 13:31:40,423 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:31:40,644 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 13:31:40,696 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 21.129 seconds (process running for 24.331)
+2024-06-02 13:31:48,441 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 13:31:48,441 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 13:31:48,448 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2024-06-02 13:32:46,580 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:32:46,587 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:32:46,623 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:50:32,005 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 12752 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:50:32,010 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:50:35,316 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:50:35,476 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:50:36,772 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:50:36,791 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:50:36,796 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:50:36,796 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:50:37,134 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:50:37,134 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4886 ms
+2024-06-02 13:50:37,724 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:50:38,173 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b3bec6c
+2024-06-02 13:50:38,178 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:50:38,614 INFO l.database [main] Set default schema name to public
+2024-06-02 13:50:39,857 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:50:39,871 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:50:40,165 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:50:40,328 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:50:40,334 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:50:41,209 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:50:43,848 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:50:43,950 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:50:44,820 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 13:50:46,459 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 13:50:46,629 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:50:46,706 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 13:50:46,749 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 16.274 seconds (process running for 20.763)
+2024-06-02 13:51:47,944 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:51:47,957 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:51:48,286 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 13:59:01,397 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 10156 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 13:59:01,403 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 13:59:04,376 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 13:59:04,542 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 142 ms. Found 2 JPA repository interfaces.
+2024-06-02 13:59:05,946 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 13:59:05,967 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 13:59:05,972 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 13:59:05,973 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 13:59:06,269 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 13:59:06,270 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4706 ms
+2024-06-02 13:59:06,851 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 13:59:07,276 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5cc3e49b
+2024-06-02 13:59:07,281 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 13:59:07,698 INFO l.database [main] Set default schema name to public
+2024-06-02 13:59:08,858 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 13:59:08,882 INFO l.executor [main] Changelog query completed.
+2024-06-02 13:59:09,185 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 13:59:09,339 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 13:59:09,345 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 13:59:10,090 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 13:59:12,619 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 13:59:12,720 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:59:13,297 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 13:59:13,299 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 13:59:13,303 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 13:59:13,316 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 13:59:13,320 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 13:59:13,375 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 13:59:13,436 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:07:42,305 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 13860 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:07:42,310 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:07:45,905 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:07:46,064 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 137 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:07:47,377 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:07:47,398 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:07:47,402 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:07:47,403 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:07:47,693 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:07:47,694 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4767 ms
+2024-06-02 14:07:48,280 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:07:48,718 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bec8cb0
+2024-06-02 14:07:48,723 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:07:49,168 INFO l.database [main] Set default schema name to public
+2024-06-02 14:07:50,355 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:07:50,370 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:07:50,650 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:07:50,798 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:07:50,804 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:07:51,643 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:07:54,183 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:07:54,284 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:07:54,804 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 14:07:54,805 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:07:54,809 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:07:54,822 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:07:54,826 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:07:54,883 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:07:54,968 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:10:34,815 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 8576 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:10:34,830 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:10:37,718 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:10:37,875 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:10:39,274 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:10:39,293 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:10:39,297 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:10:39,298 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:10:39,571 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:10:39,574 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4523 ms
+2024-06-02 14:10:40,301 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:10:40,822 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@44384b4a
+2024-06-02 14:10:40,827 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:10:41,303 INFO l.database [main] Set default schema name to public
+2024-06-02 14:10:42,418 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:10:42,436 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:10:42,760 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:10:42,912 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:10:42,918 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:10:43,750 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:10:46,282 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:10:46,385 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:10:47,233 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 14:10:48,795 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 14:10:48,966 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:10:49,019 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 14:10:49,058 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.464 seconds (process running for 18.03)
+2024-06-02 14:11:07,933 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 14:11:07,934 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 14:11:07,937 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 14:11:08,834 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null
+	at ru.evgen.cooking_chef_project.service.GroupServiceImpl.getOneGroup(GroupServiceImpl.java:36)
+	at ru.evgen.cooking_chef_project.controller.GroupController.getOneGroup(GroupController.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-02 14:11:16,084 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null
+	at ru.evgen.cooking_chef_project.service.GroupServiceImpl.getOneGroup(GroupServiceImpl.java:36)
+	at ru.evgen.cooking_chef_project.controller.GroupController.getOneGroup(GroupController.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-02 14:11:22,641 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "ru.evgen.cooking_chef_project.mapping.GroupMapper.toDtoResponse(ru.evgen.cooking_chef_project.entity.Group)" because "this.groupMapper" is null
+	at ru.evgen.cooking_chef_project.service.GroupServiceImpl.getOneGroup(GroupServiceImpl.java:36)
+	at ru.evgen.cooking_chef_project.controller.GroupController.getOneGroup(GroupController.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:798)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-06-02 14:12:10,741 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:12:10,750 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:12:10,767 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 14:12:25,233 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 7928 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:12:25,390 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:12:28,608 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:12:28,768 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 139 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:12:30,252 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:12:30,273 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:12:30,279 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:12:30,279 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:12:30,607 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:12:30,608 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5074 ms
+2024-06-02 14:12:31,174 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:12:31,603 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e848aea
+2024-06-02 14:12:31,607 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:12:32,036 INFO l.database [main] Set default schema name to public
+2024-06-02 14:12:33,190 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:12:33,205 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:12:33,473 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:12:33,609 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:12:33,614 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:12:34,343 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:12:36,817 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:12:36,918 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:12:36,952 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Failed to instantiate [ru.evgen.cooking_chef_project.service.GroupServiceImpl]: No default constructor found
+2024-06-02 14:12:36,952 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:12:36,959 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:12:36,972 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:12:36,976 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:12:37,045 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:12:37,115 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Failed to instantiate [ru.evgen.cooking_chef_project.service.GroupServiceImpl]: No default constructor found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:794)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:236)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1350)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:558)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:615)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at ru.evgen.cooking_chef_project.CookingChefProjectScaleappsApplication.main(CookingChefProjectScaleappsApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Failed to instantiate [ru.evgen.cooking_chef_project.service.GroupServiceImpl]: No default constructor found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:558)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:518)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:903)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:781)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [ru.evgen.cooking_chef_project.service.GroupServiceImpl]: No default constructor found
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:83)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1306)
+	... 31 common frames omitted
+Caused by: java.lang.NoSuchMethodException: ru.evgen.cooking_chef_project.service.GroupServiceImpl.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3761)
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2930)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:79)
+	... 32 common frames omitted
+2024-06-02 14:13:41,364 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 13484 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:13:41,372 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:13:44,391 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:13:44,537 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:13:45,847 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:13:45,867 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:13:45,871 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:13:45,871 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:13:46,171 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:13:46,173 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4623 ms
+2024-06-02 14:13:46,751 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:13:47,147 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@10dfa7ef
+2024-06-02 14:13:47,157 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:13:47,562 INFO l.database [main] Set default schema name to public
+2024-06-02 14:13:48,729 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:13:48,747 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:13:49,004 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:13:49,142 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:13:49,144 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:13:49,864 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:13:52,526 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:13:52,627 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:13:53,196 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 14:13:53,206 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:13:53,206 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:13:53,227 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:13:53,237 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:13:53,297 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:13:53,368 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:17:23,338 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 2968 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:17:23,361 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:17:26,324 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:17:26,484 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:17:27,840 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:17:27,861 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:17:27,866 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:17:27,867 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:17:28,155 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:17:28,157 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4598 ms
+2024-06-02 14:17:28,790 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:17:29,375 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63f2e0b
+2024-06-02 14:17:29,380 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:17:29,799 INFO l.database [main] Set default schema name to public
+2024-06-02 14:17:30,990 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:17:31,005 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:17:31,285 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:17:31,442 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:17:31,447 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:17:32,238 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:17:34,776 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:17:34,882 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:17:35,399 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 14:17:35,401 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:17:35,404 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:17:35,421 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:17:35,425 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:17:35,489 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:17:35,551 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:18:38,723 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 11292 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:18:38,731 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:18:41,840 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:18:42,003 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 138 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:18:43,394 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:18:43,415 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:18:43,425 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:18:43,425 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:18:43,697 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:18:43,697 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4600 ms
+2024-06-02 14:18:44,248 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:18:44,682 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a06904
+2024-06-02 14:18:44,684 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:18:45,101 INFO l.database [main] Set default schema name to public
+2024-06-02 14:18:46,289 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:18:46,308 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:18:46,603 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:18:46,747 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:18:46,757 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:18:47,468 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:18:49,924 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:18:50,024 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:18:50,610 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 14:18:50,610 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:18:50,610 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:18:50,626 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:18:50,642 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:18:50,710 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:18:50,764 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:20:35,699 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 3968 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:20:35,733 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:20:38,790 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:20:38,957 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 147 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:20:40,336 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:20:40,356 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:20:40,364 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:20:40,364 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:20:40,651 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:20:40,651 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4687 ms
+2024-06-02 14:20:41,240 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:20:41,677 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6684f7f2
+2024-06-02 14:20:41,687 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:20:42,104 INFO l.database [main] Set default schema name to public
+2024-06-02 14:20:43,230 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:20:43,240 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:20:43,570 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:20:43,752 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:20:43,803 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:20:44,700 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:20:47,319 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:20:47,423 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:20:48,291 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 14:20:49,874 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 14:20:50,043 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:20:50,106 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 14:20:50,140 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.774 seconds (process running for 19.426)
+2024-06-02 14:20:56,104 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 14:20:56,105 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2024-06-02 14:20:56,108 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-4] Completed initialization in 3 ms
+2024-06-02 14:23:09,752 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:23:09,762 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:23:09,780 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 14:27:56,427 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 712 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:27:56,433 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:27:59,531 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:27:59,702 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 149 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:28:01,150 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:28:01,173 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:28:01,178 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:28:01,178 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:28:01,479 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:28:01,480 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4786 ms
+2024-06-02 14:28:02,086 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:28:02,536 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@352f6727
+2024-06-02 14:28:02,541 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:28:02,985 INFO l.database [main] Set default schema name to public
+2024-06-02 14:28:04,395 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:28:04,418 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:28:04,744 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:28:04,947 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:28:04,954 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:28:05,852 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:28:08,683 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:28:08,837 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:28:09,537 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'groupController' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\controller\GroupController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'groupServiceImpl' defined in file [C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes\ru\evgen\cooking_chef_project\service\GroupServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-06-02 14:28:09,538 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:28:09,544 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:28:09,585 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2024-06-02 14:28:09,591 INFO o.a.c.c.StandardService [main] Stopping service [Tomcat]
+2024-06-02 14:28:09,681 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-02 14:28:09,849 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.evgen.cooking_chef_project.service.GroupServiceImpl required a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.evgen.cooking_chef_project.mapping.GroupMapper' in your configuration.
+
+2024-06-02 14:37:35,703 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 14288 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:37:35,784 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:37:39,078 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:37:39,254 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 151 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:37:40,794 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:37:40,818 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:37:40,824 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:37:40,824 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:37:41,130 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:37:41,130 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5170 ms
+2024-06-02 14:37:41,783 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:37:42,281 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1b3bec6c
+2024-06-02 14:37:42,285 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:37:42,804 INFO l.database [main] Set default schema name to public
+2024-06-02 14:37:44,042 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:37:44,063 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:37:44,376 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:37:44,575 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:37:44,583 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:37:45,455 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:37:48,178 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:37:48,324 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:37:49,234 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 14:37:50,859 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 14:37:51,051 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:37:51,105 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 14:37:51,139 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 16.711 seconds (process running for 21.284)
+2024-06-02 14:37:52,266 INFO o.a.c.c.C.[.[.[/] [RMI TCP Connection(3)-192.168.0.125] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 14:37:52,267 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(3)-192.168.0.125] Initializing Servlet 'dispatcherServlet'
+2024-06-02 14:37:52,270 INFO o.s.w.s.DispatcherServlet [RMI TCP Connection(3)-192.168.0.125] Completed initialization in 3 ms
+2024-06-02 14:38:34,485 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-2] Adding a new student Проверкин group 4
+2024-06-02 14:38:34,835 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-2] Student Проверкин saved to the database
+2024-06-02 14:39:07,299 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:39:07,309 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:39:07,333 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 14:43:46,628 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 8852 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:43:46,634 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:43:49,684 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:43:49,882 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 169 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:43:51,288 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:43:51,313 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:43:51,317 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:43:51,318 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:43:51,644 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:43:51,645 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4821 ms
+2024-06-02 14:43:52,248 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:43:52,692 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5889fc44
+2024-06-02 14:43:52,697 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:43:53,136 INFO l.database [main] Set default schema name to public
+2024-06-02 14:43:54,335 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:43:54,350 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:43:54,629 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:43:54,763 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:43:54,769 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:43:55,636 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:43:58,163 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:43:58,263 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:43:59,254 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 14:44:00,801 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 14:44:01,000 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:44:01,098 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 14:44:01,137 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.787 seconds (process running for 18.546)
+2024-06-02 14:44:24,424 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 14:44:24,425 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 14:44:24,428 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2024-06-02 14:44:24,788 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-2] Adding a new student Проверкин2 group 4
+2024-06-02 14:44:25,121 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-2] Student Проверкин2 saved to the database
+2024-06-02 14:44:51,005 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:44:51,010 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:44:51,028 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 14:46:02,731 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 13400 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 14:46:02,736 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 14:46:05,551 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 14:46:05,698 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+2024-06-02 14:46:06,958 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 14:46:06,979 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:46:06,983 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 14:46:06,983 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 14:46:07,263 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 14:46:07,265 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4393 ms
+2024-06-02 14:46:07,854 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 14:46:08,286 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a06904
+2024-06-02 14:46:08,291 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 14:46:08,719 INFO l.database [main] Set default schema name to public
+2024-06-02 14:46:09,939 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 14:46:09,961 INFO l.executor [main] Changelog query completed.
+2024-06-02 14:46:10,253 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 14:46:10,392 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 14:46:10,397 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 14:46:11,142 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 14:46:13,913 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 14:46:14,020 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:46:14,937 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 14:46:16,622 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 14:46:16,788 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 14:46:16,841 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 14:46:16,878 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.536 seconds (process running for 18.054)
+2024-06-02 14:46:37,776 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 14:46:37,776 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 14:46:37,779 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-06-02 14:47:05,980 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 14:47:05,987 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 14:47:06,005 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 15:33:40,189 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 11820 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 15:33:40,198 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 15:33:43,544 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 15:33:43,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 167 ms. Found 2 JPA repository interfaces.
+2024-06-02 15:33:45,228 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 15:33:45,252 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 15:33:45,258 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 15:33:45,259 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 15:33:45,579 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 15:33:45,582 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5131 ms
+2024-06-02 15:33:46,208 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 15:33:46,705 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3d0352
+2024-06-02 15:33:46,710 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 15:33:47,213 INFO l.database [main] Set default schema name to public
+2024-06-02 15:33:48,412 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 15:33:48,432 INFO l.executor [main] Changelog query completed.
+2024-06-02 15:33:48,777 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 15:33:48,979 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 15:33:48,987 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 15:33:49,855 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 15:33:52,807 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 15:33:52,942 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 15:33:53,847 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 15:33:55,433 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 15:33:55,600 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 15:33:55,652 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 15:33:55,703 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 16.859 seconds (process running for 20.501)
+2024-06-02 15:34:06,028 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 15:34:06,028 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 15:34:06,032 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 15:35:09,738 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 15:35:09,746 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 15:35:09,781 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 16:04:46,951 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 12544 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 16:04:46,956 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 16:04:50,820 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 16:04:51,023 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 179 ms. Found 2 JPA repository interfaces.
+2024-06-02 16:04:52,764 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 16:04:52,789 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:04:52,794 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 16:04:52,795 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 16:04:53,104 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 16:04:53,106 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5826 ms
+2024-06-02 16:04:53,730 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 16:04:54,207 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ea48c37
+2024-06-02 16:04:54,212 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 16:04:54,768 INFO l.database [main] Set default schema name to public
+2024-06-02 16:04:55,936 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 16:04:55,954 INFO l.executor [main] Changelog query completed.
+2024-06-02 16:04:56,235 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 16:04:56,409 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 16:04:56,415 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 16:04:57,264 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 16:04:59,974 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 16:05:00,113 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:05:01,022 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 16:05:02,814 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 16:05:02,991 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:05:03,048 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 16:05:03,082 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 17.502 seconds (process running for 20.569)
+2024-06-02 16:05:26,056 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 16:05:26,057 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 16:05:26,064 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 7 ms
+2024-06-02 16:05:37,768 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:05:37,775 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 16:05:37,798 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 16:08:34,460 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 12716 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 16:08:34,465 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 16:08:37,515 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 16:08:37,664 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 131 ms. Found 2 JPA repository interfaces.
+2024-06-02 16:08:38,954 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 16:08:38,974 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:08:38,979 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 16:08:38,979 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 16:08:39,260 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 16:08:39,261 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4596 ms
+2024-06-02 16:08:39,872 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 16:08:40,301 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71dd4624
+2024-06-02 16:08:40,305 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 16:08:40,741 INFO l.database [main] Set default schema name to public
+2024-06-02 16:08:41,958 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 16:08:41,974 INFO l.executor [main] Changelog query completed.
+2024-06-02 16:08:42,256 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 16:08:42,406 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 16:08:42,412 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 16:08:43,227 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 16:08:45,945 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 16:08:46,046 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:08:46,912 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 16:08:48,555 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 16:08:48,736 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:08:48,790 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 16:08:48,824 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.779 seconds (process running for 19.891)
+2024-06-02 16:08:54,577 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 16:08:54,578 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-02 16:08:54,581 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-06-02 16:09:33,912 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-6] Adding a new student Проверкин2 group 4
+2024-06-02 16:09:34,088 INFO r.e.c.s.StudentServiceImp [http-nio-8080-exec-6] Student Проверкин2 saved to the database
+2024-06-02 16:10:35,587 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:10:35,599 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 16:10:35,631 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 16:13:14,302 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 9116 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 16:13:14,306 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 16:13:17,200 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 16:13:17,346 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 128 ms. Found 2 JPA repository interfaces.
+2024-06-02 16:13:18,647 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 16:13:18,667 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:13:18,671 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 16:13:18,671 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 16:13:18,962 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 16:13:18,962 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4441 ms
+2024-06-02 16:13:19,537 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 16:13:19,962 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5a06904
+2024-06-02 16:13:19,967 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 16:13:20,365 INFO l.database [main] Set default schema name to public
+2024-06-02 16:13:21,543 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 16:13:21,557 INFO l.executor [main] Changelog query completed.
+2024-06-02 16:13:21,817 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 16:13:21,994 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 16:13:21,999 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 16:13:22,733 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 16:13:25,444 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 16:13:25,552 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:13:26,442 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 16:13:28,028 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 16:13:28,193 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:13:28,248 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 16:13:28,283 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.183 seconds (process running for 17.665)
+2024-06-02 16:14:30,424 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 16:14:30,429 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 16:14:30,432 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 16:14:51,612 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:14:51,620 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 16:14:51,891 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-02 16:15:45,208 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Starting CookingChefProjectScaleappsApplication using Java 21.0.2 with PID 6388 (C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps\target\classes started by PONOMAREV in C:\Users\PONOMAREV\Desktop\File IDEA\cooking_chef_project_scaleapps)
+2024-06-02 16:15:45,213 INFO r.e.c.CookingChefProjectScaleappsApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-06-02 16:15:48,872 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-02 16:15:49,168 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 260 ms. Found 2 JPA repository interfaces.
+2024-06-02 16:15:50,566 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2024-06-02 16:15:50,587 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:15:50,591 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2024-06-02 16:15:50,592 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-02 16:15:50,879 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2024-06-02 16:15:50,881 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5431 ms
+2024-06-02 16:15:51,449 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-06-02 16:15:51,902 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9f0fc36
+2024-06-02 16:15:51,906 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-06-02 16:15:52,331 INFO l.database [main] Set default schema name to public
+2024-06-02 16:15:53,490 INFO l.changelog [main] Reading from public.databasechangelog
+2024-06-02 16:15:53,505 INFO l.executor [main] Changelog query completed.
+2024-06-02 16:15:53,785 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-02 16:15:53,936 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.24.Final
+2024-06-02 16:15:53,942 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-06-02 16:15:54,680 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-02 16:15:57,173 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-02 16:15:57,273 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:15:58,112 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-02 16:15:59,618 INFO o.s.b.a.e.w.EndpointLinksResolver [main] Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-06-02 16:15:59,781 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-02 16:15:59,826 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-02 16:15:59,863 INFO r.e.c.CookingChefProjectScaleappsApplication [main] Started CookingChefProjectScaleappsApplication in 15.89 seconds (process running for 18.42)
+2024-06-02 16:16:05,857 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-02 16:16:05,857 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-02 16:16:05,860 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2024-06-02 16:16:28,317 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-02 16:16:28,323 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-02 16:16:28,342 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
