@@ -24,6 +24,8 @@ import java.util.Optional;
         description = "Все методы для работы со студентами")
 public class StudentController {
 
+    //Комментарий для MyBranch2
+
     private final StudentService studentService;
 
     @Operation(description = "Добавление студента в группу")
