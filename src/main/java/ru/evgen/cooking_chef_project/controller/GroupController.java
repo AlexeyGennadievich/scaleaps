@@ -23,6 +23,7 @@ public class GroupController {
 
     private final GroupService groupService;
 
+    // RestTamplate
 
     @Operation(summary = "Добавление новой группы университета")
     @PostMapping
